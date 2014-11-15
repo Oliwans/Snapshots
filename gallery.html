@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Image Gallery</title>
+	<link rel="stylesheet" type="text/css" href="styleS/layout.css" media="screen"/>
+</head>
+<body>
+	<h1>Snapshots</h1>
+		<ul>
+				<li>
+				<a href ="images/girl.jpg" onclick="showPic(this);return false;" title="a girl">Girl</a>
+				</li>
+				<li>
+				<a href ="images/man.jpg" onclick="showPic(this);return false;" title="a man with white hair">Man</a>
+				</li>
+				<li>
+				<a href ="images/plane.jpg" onclick="showPic(this);return false;" title="a plane fly in the sky">Plane</a>
+				</li>
+				<li>
+				<a href ="images/keyboard.jpg" onclick="showPic(this);return false;" title="a keyboard with light">Keyboard</a>
+				</li>			
+		</ul>
+		<img id="placeholder" src="images/placeholder.jpg" alt="my image gallery" />
+		<P id="description">Choose an image.</P>
+		<script type="text/javascript" src="scripts/showPic.js"></script>
+</body>
+</html>
